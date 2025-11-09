@@ -122,7 +122,7 @@ function About() {
                 >
                   <a
                     className="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
-                    href="#"
+                    href="#more"
                   >
                     <div className="icon-reverse-wrapper">
                       <span className="btn-text">Read More About Me</span>

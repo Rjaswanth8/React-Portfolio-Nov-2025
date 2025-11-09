@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import $ from "jquery"; 
+import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
@@ -12,7 +12,7 @@ const ExperienceData = [
     subTitle: "NoPaperForms Solutions Limited",
     description:
       "Meritto – A SaaS CRM built for student enrollment and recruitment.",
-      modalId: "meritto"
+    modalId: "meritto",
   },
   {
     icon: "fa-regular fa-briefcase",
@@ -20,7 +20,7 @@ const ExperienceData = [
     subTitle: "G - Rank Digital Marketing",
     description:
       "Developed and maintained interactive UI components with React.js and modern CSS frameworks.",
-      modalId: "g-rank"
+    modalId: "g-rank",
   },
   {
     icon: "fa-regular fa-briefcase",
@@ -28,11 +28,18 @@ const ExperienceData = [
     subTitle: "NewTo Solutions Pvt Ltd",
     description:
       "Contributed to front-end development using HTML, CSS, JavaScript, and React.js for Briclay technologies.",
-      modalId: "briclay"
+    modalId: "briclay",
   },
 ];
 
-const ExperienceCard = ({ icon, title, subTitle, description, order, modalId }) => (
+const ExperienceCard = ({
+  icon,
+  title,
+  subTitle,
+  description,
+  order,
+  modalId,
+}) => (
   <div
     className={`service-item tmp-scroll-trigger tmp-fade-in animation-order-${order} ${
       order === 1 ? "current" : ""
@@ -47,7 +54,12 @@ const ExperienceCard = ({ icon, title, subTitle, description, order, modalId }) 
         <p className="sub-title">{subTitle}</p>
       </div>
       <p className="card-para">{description}</p>
-      <a href="#"className="read-more-btn"data-bs-toggle="modal" data-bs-target={`#${modalId}`}>
+      <a
+        href="#more"
+        className="read-more-btn"
+        data-bs-toggle="modal"
+        data-bs-target={`#${modalId}`}
+      >
         Read More{" "}
         <span className="read-more-icon">
           <i className="fa-solid fa-angle-right"></i>
@@ -134,7 +146,7 @@ const Experience = () => {
             <span className="subtitle theme-gradient">My Experience</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-            A journey of building engaging,  <br /> user-focused web interfaces.
+            A journey of building engaging, <br /> user-focused web interfaces.
           </h2>
         </div>
 
