@@ -128,11 +128,11 @@ const Home = () => {
                           Experience
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a className="smoth-animation" href="#project">
                           Projects
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a className="smoth-animation" href="#contact">
                           Contact
@@ -249,11 +249,11 @@ const Home = () => {
                   Experience
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#project" onClick={closeMobileMenu}>
                   Projects
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#contact" onClick={closeMobileMenu}>
                   Contact
