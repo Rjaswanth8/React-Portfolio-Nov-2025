@@ -79,11 +79,11 @@ app.post("/api/contact", async (req, res) => {
 /* ===============================
    SERVE REACT FRONTEND  mongodb+srv://raminenijaswanth26:<db_password>@cluster0.kg8eioh.mongodb.net/?appName=Cluster0
 =============================== */
-app.use(express.static(path.join(__dirname, "../build")));
+// app.use(express.static(path.join(__dirname, "../build")));
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../build/index.html"));
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "../build/index.html"));
+// });
 
 /* ===============================
    START SERVER
