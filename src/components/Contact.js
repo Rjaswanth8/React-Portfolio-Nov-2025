@@ -38,6 +38,11 @@ const Contact = () => {
         body: JSON.stringify(formData),
       });
 
+      if (!res.ok) {
+        const text = await res.text();
+        throw new Error(text || "Request failed");
+      }
+
       const data = await res.json();
       if (data.success) {
         setStatus("✅ Message sent successfully!");
