@@ -32,7 +32,7 @@ const Contact = () => {
     setStatus("⏳ Sending...");
 
     try {
-      const res = await fetch("http://localhost:5000/api/contact", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -41,7 +41,13 @@ const Contact = () => {
       const data = await res.json();
       if (data.success) {
         setStatus("✅ Message sent successfully!");
-        setFormData({ name: "", phone: "", email: "", subject: "", message: "" });
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
       } else {
         setStatus("⚠️ " + data.message);
       }
@@ -62,13 +68,13 @@ const Contact = () => {
             <span className="subtitle theme-gradient">Let’s Connect</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-            Just to say hi<br /> I’d love to hear from you.
+            Just to say hi
+            <br /> I’d love to hear from you.
           </h2>
         </div>
 
         <div className="get-in-touch-wrapper position-relative overflow-hidden">
           <div className="row g-5 align-items-center">
-
             {/* Contact Info */}
             <div className="col-lg-5">
               <div className="contact-inner">
@@ -120,9 +126,12 @@ const Contact = () => {
                 </div>
 
                 <div className="contact-form">
-                  <form className="tmp-dynamic-form" id="contact-form" onSubmit={handleSubmit}>
+                  <form
+                    className="tmp-dynamic-form"
+                    id="contact-form"
+                    onSubmit={handleSubmit}
+                  >
                     <div className="contact-form-wrapper row">
-
                       {/* Name */}
                       <div className="col-lg-6">
                         <div className="form-group">
@@ -235,7 +244,6 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-
           </div>
 
           <div className="tmp-light light-top-left active"></div>
