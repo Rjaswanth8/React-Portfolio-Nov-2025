@@ -36,7 +36,7 @@ function About() {
     { name: "jQuery", level: 75 },
     { name: "React.Js", level: 70 },
     { name: "MySQL", level: 80 },
-    { name: "Devops - AWS", level: 40 },
+    { name: "Apex", level: 40 },
   ];
   const designSkills = [
     { name: "Node.Js", level: 70 },

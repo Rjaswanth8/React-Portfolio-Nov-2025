@@ -82,12 +82,12 @@ const Footer = () => {
                     © R Jaswanth {currentYear} | All Rights Reserved
                   </p>
                   <ul>
-                    <li>
+                    {/* <li>
                       <a href="#terms">Terms & Conditions</a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a href="#privacy">Privacy Policy</a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="#contact">Contact Us</a>
                     </li>
