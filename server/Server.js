@@ -11,10 +11,13 @@ const PORT = process.env.PORT || 5000;
 =============================== */
 app.use(
   cors({
-    origin: "https://jaswanthreactdev.vercel.app", // your Vercel frontend
-    methods: ["GET", "POST"],
+    origin: "https://jaswanthreactdev.vercel.app",
+    methods: ["GET", "POST", "OPTIONS"],
+    allowedHeaders: ["Content-Type"],
   })
 );
+
+app.options("*", cors());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -45,7 +48,6 @@ const Contact = mongoose.model("Contact", ContactSchema);
    ROUTES
 =============================== */
 
-// Health check
 app.get("/", (req, res) => {
   res.send("🚀 Backend is running");
 });
