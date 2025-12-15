@@ -32,11 +32,14 @@ const Contact = () => {
     setStatus("⏳ Sending...");
 
     try {
-      const res = await fetch("https://your-backend.onrender.com/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
+      const res = await fetch(
+        "https://jaswanth-contact-api.onrender.com/api/contact",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (!res.ok) {
         const text = await res.text();
