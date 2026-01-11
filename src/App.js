@@ -11,6 +11,7 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
       <About />
       <Education />
       <Experience />
+      <Projects />
       <Contact />
       <Footer />
     </div>

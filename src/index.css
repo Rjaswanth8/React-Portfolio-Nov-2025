@@ -16541,14 +16541,15 @@ Section Head
 }
 @media (min-width: 1200px) {
   .img-box.v2 {
-    height: 400px;
+    height: 225px;
   }
 }
 @media (min-width: 1400px) {
   .img-box.v2 {
-    height: 447px;
+    height: 225px;
   }
 }
+.projectsec i{color: #fff !important;}
 .img-box .img-primary {
   position: absolute;
   top: 0;

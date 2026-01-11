@@ -92,8 +92,8 @@ function About() {
                         <h3 className="card-title">Experience</h3>
                       </div>
                       <p className="card-para">
-                        1.6+ years of experience in front-end development,
-                        building responsive and user-friendly web applications.
+                        2 years of experience in front-end development, building
+                        responsive and user-friendly web applications.
                       </p>
                     </div>
                   </div>

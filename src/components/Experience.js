@@ -17,19 +17,19 @@ const ExperienceData = [
   {
     icon: "fa-regular fa-briefcase",
     title: "Web Developer Intern",
-    subTitle: "G - Rank Digital Marketing",
+    subTitle: "G - Rank(Meritto's Digital Marketing Company)",
     description:
       "Developed and maintained interactive UI components with React.js and modern CSS frameworks.",
     modalId: "g-rank",
   },
-  {
-    icon: "fa-regular fa-briefcase",
-    title: "Front-End - Consultant",
-    subTitle: "NewTo Solutions Pvt Ltd",
-    description:
-      "Contributed to front-end development using HTML, CSS, JavaScript, and React.js for Briclay technologies.",
-    modalId: "briclay",
-  },
+  // {
+  //   icon: "fa-regular fa-briefcase",
+  //   title: "Front-End - Consultant",
+  //   subTitle: "NewTo Solutions Pvt Ltd",
+  //   description:
+  //     "Contributed to front-end development using HTML, CSS, JavaScript, and React.js for Briclay technologies.",
+  //   modalId: "briclay",
+  // },
 ];
 
 const ExperienceCard = ({

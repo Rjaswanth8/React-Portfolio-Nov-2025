@@ -462,6 +462,317 @@ const Popups = () => {
           </div>
         </div>
       </div>
+      {/* ===== Portfolio Project Popup ===== */}
+      <div
+        className="modal fade projectsec"
+        id="portfolio-project-srm"
+        tabIndex="-1"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered" role="document">
+          <div className="modal-content">
+            {/* Modal Header */}
+            <div className="modal-header">
+              <button
+                type="button"
+                className="close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">
+                  <i className="fa-solid fa-xmark"></i>
+                </span>
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="modal-body">
+              <div className="row align-items-center">
+                {/* Left Image */}
+                <div className="col-lg-6">
+                  <div className="portfolio-popup-thumbnail">
+                    <div className="image">
+                      <img
+                        className="w-100"
+                        src="/images/srm.png"
+                        alt="Portfolio Project"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Right Content */}
+                <div className="col-lg-6">
+                  <div className="text-content">
+                    <h3>
+                      <span>SRM Group Institutions – Dashboard</span> Student
+                      Admissions Platform
+                    </h3>
+
+                    <ul>
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Built a responsive student admission management portal
+                        for SRM Institutions serving 8,000+ applicants annually.
+                      </li>
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Designed an intuitive dashboard interface for real-time
+                        tracking of application status, payment handling.
+                      </li>
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Used React.js, Redux Toolkit, and Tailwind CSS to
+                        deliver fast, responsive, and modular UI across all
+                        devices.
+                      </li>
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Optimized performance using lazy loading and reusable
+                        component design, improving load time by 25%.
+                      </li>
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Dynamic Dashboard Overview: Displays real-time
+                        application status, document verification, and fee
+                        payment progress with intuitive visual indicators.
+                      </li>
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Smart Application Management: Enables applicants to
+                        fill, edit, and save multi-stage forms with instant
+                        validation and autosave functionality.
+                      </li>
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Designed and maintained CI/CD pipelines to automate
+                        build, testing, and deployment processes, enabling
+                        faster releases and improved deployment reliability.
+                      </li>
+                    </ul>
+
+                    {/* <div className="button-group button-group-pd mt--20">
+                      <a
+                        className="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                        href="#"
+                      >
+                        <div className="icon-reverse-wrapper">
+                          <span className="btn-text">LIKE THIS</span>
+                          <div className="btn-hack"></div>
+                          <img
+                            src="/images/button/btg-bg.svg"
+                            alt=""
+                            className="btn-bg"
+                          />
+                          <img
+                            src="/images/button/btg-bg-2.svg"
+                            alt=""
+                            className="btn-bg-hover"
+                          />
+                          <span className="btn-icon">
+                            <i className="fa-solid fa-thumbs-up"></i>
+                          </span>
+                          <span className="btn-icon">
+                            <i className="fa-solid fa-thumbs-up"></i>
+                          </span>
+                        </div>
+                      </a>
+
+                      <a
+                        className="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                        href="#portfolio"
+                      >
+                        <div className="icon-reverse-wrapper">
+                          <span className="btn-text">VIEW PROJECTS</span>
+                          <div className="btn-hack"></div>
+                          <img
+                            src="/images/button/btg-bg.svg"
+                            alt=""
+                            className="btn-bg"
+                          />
+                          <img
+                            src="/images/button/btg-bg-2.svg"
+                            alt=""
+                            className="btn-bg-hover"
+                          />
+                          <span className="btn-icon">
+                            <i className="fa-regular fa-chevron-right"></i>
+                          </span>
+                          <span className="btn-icon">
+                            <i className="fa-regular fa-chevron-right"></i>
+                          </span>
+                        </div>
+                      </a>
+                    </div> */}
+                  </div>
+                  {/* End text-content */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="modal fade projectsec"
+        id="portfolio-tech-iit"
+        tabIndex="-1"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered" role="document">
+          <div className="modal-content">
+            {/* Modal Header */}
+            <div className="modal-header">
+              <button
+                type="button"
+                className="close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">
+                  <i className="fa-solid fa-xmark"></i>
+                </span>
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="modal-body">
+              <div className="row align-items-center">
+                {/* Left Image */}
+                <div className="col-lg-6">
+                  <div className="portfolio-popup-thumbnail">
+                    <div className="image">
+                      <img
+                        className="w-100"
+                        src="/images/madras.png"
+                        alt="Portfolio Project"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Right Content */}
+                <div className="col-lg-6">
+                  <div className="text-content">
+                    <h3>
+                      <span>IIT Madras – Dashboard</span> Student Admissions
+                      Platform
+                    </h3>
+
+                    <ul>
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Built a scalable web-based admissions and operations
+                        dashboard for IIT Madras, supporting 3,000+ student
+                        applications per admission cycle.
+                      </li>
+
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Collaborated closely with backend developers and
+                        stakeholders to implement end-to-end admission
+                        workflows, including application submission, document
+                        processing, and payment tracking.
+                      </li>
+
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Built role-based dashboards for students and
+                        administrators, improving visibility into application
+                        progress and reducing manual follow-ups.
+                      </li>
+
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Implemented efficient state management using Redux
+                        Toolkit to handle complex multi-step form flows and
+                        ensure consistent data across the application.
+                      </li>
+
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Designed and maintained CI/CD pipelines to automate
+                        build, testing, and deployment processes, enabling
+                        faster releases and improved deployment reliability.
+                      </li>
+
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Enhanced user experience by creating clean, accessible,
+                        and mobile-first UI components using Tailwind CSS,
+                        ensuring usability across devices and browsers.
+                      </li>
+
+                      <li>
+                        <i className="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i>
+                        Contributed to production stability and long-term
+                        maintainability by following clean code practices,
+                        reusable component architecture, and Agile development
+                        standards.
+                      </li>
+                    </ul>
+
+                    {/* <div className="button-group button-group-pd mt--20">
+                      <a
+                        className="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                        href="#"
+                      >
+                        <div className="icon-reverse-wrapper">
+                          <span className="btn-text">LIKE THIS</span>
+                          <div className="btn-hack"></div>
+                          <img
+                            src="/images/button/btg-bg.svg"
+                            alt=""
+                            className="btn-bg"
+                          />
+                          <img
+                            src="/images/button/btg-bg-2.svg"
+                            alt=""
+                            className="btn-bg-hover"
+                          />
+                          <span className="btn-icon">
+                            <i className="fa-solid fa-thumbs-up"></i>
+                          </span>
+                          <span className="btn-icon">
+                            <i className="fa-solid fa-thumbs-up"></i>
+                          </span>
+                        </div>
+                      </a>
+
+                      <a
+                        className="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                        href="#portfolio"
+                      >
+                        <div className="icon-reverse-wrapper">
+                          <span className="btn-text">VIEW PROJECTS</span>
+                          <div className="btn-hack"></div>
+                          <img
+                            src="/images/button/btg-bg.svg"
+                            alt=""
+                            className="btn-bg"
+                          />
+                          <img
+                            src="/images/button/btg-bg-2.svg"
+                            alt=""
+                            className="btn-bg-hover"
+                          />
+                          <span className="btn-icon">
+                            <i className="fa-regular fa-chevron-right"></i>
+                          </span>
+                          <span className="btn-icon">
+                            <i className="fa-regular fa-chevron-right"></i>
+                          </span>
+                        </div>
+                      </a>
+                    </div> */}
+                  </div>
+                  {/* End text-content */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
